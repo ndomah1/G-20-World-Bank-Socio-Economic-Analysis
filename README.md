@@ -21,10 +21,10 @@
 ## Dashboard Preview
 
 ### Dashboard 1—Social & Economic Trends  
-![dashboard 1](https://github.com/ndomah/G20-Bank-Data-Analytics-and-Dashboard/blob/main/Dashboard%201.png)
+![dashboard 1](https://github.com/ndomah1/G-20-World-Bank-Socio-Economic-Analysis/blob/main/images/Dashboard%201.png)
 
 ### Dashboard 2—Economic Dynamics  
-![dashboard 2](https://github.com/ndomah/G20-Bank-Data-Analytics-and-Dashboard/blob/main/Dashboard%202.png)
+![dashboard 2](https://github.com/ndomah1/G-20-World-Bank-Socio-Economic-Analysis/blob/main/images/Dashboard%202.png)
 
 > 🔗 **Interactive version:** [Tableau Public](https://public.tableau.com/app/profile/nilesh.domah4236/viz/WorldBankAnalytics_17156157559640/Dashboard2)
 
@@ -45,7 +45,7 @@ This project delivers a **re-usable, code-driven workflow** that:
 | **Preparation** | **Pandas / NumPy** | Datatype normalisation, missing-value imputation (forward-fill + median), ISO country mapping. |
 | **Enrichment** | **SQL (SQLite)** | Generated `dim_date`, `dim_country`, calculated y-o-y deltas & growth rates. |
 | **Visualisation** | **Tableau** | Two dashboards, 7 sheet types (line, bar, bubble, map, treemap, bullet, box-plot). |
-| **Notebook** | [World Bank Analytics .ipynb](https://github.com/ndomah/G20-Bank-Data-Analytics-and-Dashboard/blob/main/World%20Bank%20Analytics.ipynb) | Reproducible EDA & export script. |
+| **Notebook** | [World Bank Analytics .ipynb](https://github.com/ndomah1/G-20-World-Bank-Socio-Economic-Analysis/blob/main/script/World%20Bank%20Analytics.ipynb) | Reproducible EDA & export script. |
 
 
 ## Executive Summary
