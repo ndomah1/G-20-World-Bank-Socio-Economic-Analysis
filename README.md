@@ -1,4 +1,4 @@
-# G-20 World Bank Analytics — Socio-Economic Insights
+# G-20 World Bank Socio-Economic Analysis
 
 > **Purpose:** Turn raw World Bank API feeds into actionable, executive-ready Tableau dashboards that reveal how G-20 economies stack up on growth, trade, connectivity and human-development KPIs.
 
@@ -10,7 +10,7 @@
 ### Dashboard 2—Economic Dynamics  
 ![dashboard 2](https://github.com/ndomah/G20-Bank-Data-Analytics-and-Dashboard/blob/main/Dashboard%202.png)
 
-> 🔗 **Interactive version:** [Tableau Public](https://public.tableau.com/app/profile/nilesh.domah4236/viz/WorldBankAnalytics_17156157559640/Dashboard2)
+> 🔗 **Interactive version:** [Tableau Public](https://public.tableau.com/views/WorldBankAnalytics_17156157559640/Dashboard2?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link)
 
 
 ## Table of Contents
