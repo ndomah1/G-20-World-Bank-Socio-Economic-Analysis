@@ -2,18 +2,9 @@
 
 > **Purpose:** Turn raw World Bank API feeds into actionable, executive-ready Tableau dashboards that reveal how G-20 economies stack up on growth, trade, connectivity and human-development KPIs.
 
-## Dashboard Preview
-
-### Dashboard 1—Social & Economic Trends  
-![dashboard 1]()
-
-### Dashboard 2—Economic Dynamics  
-![dashboard 2]()
-
-> 🔗 **Interactive version:** [Tableau Public](https://public.tableau.com/views/WorldBankAnalytics_17156157559640/Dashboard2?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link)
-
 
 ## Table of Contents
+- [Dashboard Preview](#dashboard-preview)
 - [Project Background](#project-background)
 - [Data Pipeline](#data-pipeline)
 - [Executive Summary](#executive-summary)
@@ -27,6 +18,15 @@
 - [Assumptions & Caveats](#assumptions--caveats)
 - [Next Steps](#next-steps)
 
+## Dashboard Preview
+
+### Dashboard 1—Social & Economic Trends  
+![dashboard 1](https://github.com/ndomah/G20-Bank-Data-Analytics-and-Dashboard/blob/main/Dashboard%201.png)
+
+### Dashboard 2—Economic Dynamics  
+![dashboard 2](https://github.com/ndomah/G20-Bank-Data-Analytics-and-Dashboard/blob/main/Dashboard%202.png)
+
+> 🔗 **Interactive version:** [Tableau Public](https://public.tableau.com/app/profile/nilesh.domah4236/viz/WorldBankAnalytics_17156157559640/Dashboard2)
 
 
 ## Project Background
@@ -45,7 +45,7 @@ This project delivers a **re-usable, code-driven workflow** that:
 | **Preparation** | **Pandas / NumPy** | Datatype normalisation, missing-value imputation (forward-fill + median), ISO country mapping. |
 | **Enrichment** | **SQL (SQLite)** | Generated `dim_date`, `dim_country`, calculated y-o-y deltas & growth rates. |
 | **Visualisation** | **Tableau** | Two dashboards, 7 sheet types (line, bar, bubble, map, treemap, bullet, box-plot). |
-| **Notebook** | [World Bank Analytics .ipynb]() | Reproducible EDA & export script. |
+| **Notebook** | [World Bank Analytics .ipynb](https://github.com/ndomah/G20-Bank-Data-Analytics-and-Dashboard/blob/main/World%20Bank%20Analytics.ipynb) | Reproducible EDA & export script. |
 
 
 ## Executive Summary
@@ -95,7 +95,6 @@ Colour-blind-safe palettes and direct-label annotations promote immediate compre
 * Inflation & unemployment figures averaged across 12 monthly observations; may mask intra-year spikes.  
 * Exchange-rate effects not adjusted when comparing GDP & trade metrics in USD.  
 * Tableau dashboards optimised for 16 : 9 desktop; mobile layouts not configured.
-
 
 ## Next Steps
 * Extend ETL to **auto-refresh quarterly** and push extracts to Tableau Server.  
