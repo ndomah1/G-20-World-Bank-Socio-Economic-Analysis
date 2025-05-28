@@ -1,6 +1,6 @@
-# G-20 World Bank Socio-Economic Analysis
+# G20 World Bank Socio-Economic Analysis
 
-> **Purpose:** Turn raw World Bank API feeds into actionable, executive-ready Tableau dashboards that reveal how G-20 economies stack up on growth, trade, connectivity and human-development KPIs.
+> **Purpose:** Turn raw World Bank API feeds into actionable, executive-ready Tableau dashboards that reveal how G20 economies stack up on growth, trade, connectivity and human-development KPIs.
 
 
 ## Table of Contents
@@ -21,16 +21,16 @@
 ## Dashboard Preview
 
 ### Dashboard 1—Social & Economic Trends  
-![dashboard 1](https://github.com/ndomah1/G-20-World-Bank-Socio-Economic-Analysis/blob/main/images/Dashboard%201.png)
+![dashboard 1](https://github.com/ndomah1/G20-World-Bank-Socio-Economic-Analysis/blob/main/images/Dashboard%201.png)
 
 ### Dashboard 2—Economic Dynamics  
-![dashboard 2](https://github.com/ndomah1/G-20-World-Bank-Socio-Economic-Analysis/blob/main/images/Dashboard%202.png)
+![dashboard 2](https://github.com/ndomah1/G20-World-Bank-Socio-Economic-Analysis/blob/main/images/Dashboard%202.png)
 
 > 🔗 **Interactive version:** [Tableau Public](https://public.tableau.com/app/profile/nilesh.domah4236/viz/WorldBankAnalytics_17156157559640/Dashboard2)
 
 
 ## Project Background
-Policy teams often grapple with siloed spreadsheets when benchmarking G-20 performance.  
+Policy teams often grapple with siloed spreadsheets when benchmarking G20 performance.  
 This project delivers a **re-usable, code-driven workflow** that:
 
 1. **Pulls live data** (2015 – 2020) from the World Bank API for 16 key indicators.  
@@ -45,14 +45,14 @@ This project delivers a **re-usable, code-driven workflow** that:
 | **Preparation** | **Pandas / NumPy** | Datatype normalisation, missing-value imputation (forward-fill + median), ISO country mapping. |
 | **Enrichment** | **SQL (SQLite)** | Generated `dim_date`, `dim_country`, calculated y-o-y deltas & growth rates. |
 | **Visualisation** | **Tableau** | Two dashboards, 7 sheet types (line, bar, bubble, map, treemap, bullet, box-plot). |
-| **Notebook** | [World Bank Analytics .ipynb](https://github.com/ndomah1/G-20-World-Bank-Socio-Economic-Analysis/blob/main/script/World%20Bank%20Analytics.ipynb) | Reproducible EDA & export script. |
+| **Notebook** | [World Bank Analytics .ipynb](https://github.com/ndomah1/G20-World-Bank-Socio-Economic-Analysis/blob/main/script/World%20Bank%20Analytics.ipynb) | Reproducible EDA & export script. |
 
 
 ## Executive Summary
 | KPI | Stand-out Insight |
 |-----|------------------|
 | **Inflation** | South Africa averages **6.6 %** (2016 peak) — 3 × higher than peer median. |
-| **Unemployment** | South Africa maintains **22 – 25 %** unemployment vs. G-20 median < 7 %. |
+| **Unemployment** | South Africa maintains **22 – 25 %** unemployment vs. G20 median < 7 %. |
 | **Electricity Access** | All countries > 97 % except South Africa (~ 84 %), signalling infrastructure gap. |
 | **Education Spend Efficacy** | UK & South Africa show weakest learning returns on spend. |
 | **Trade Balance** | Canada & UK hover near equilibrium; US runs **$-2 T** import gap. |
